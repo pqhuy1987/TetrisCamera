@@ -1,0 +1,3 @@
+Minoes are blocks that bury your world and now they are falling on yours. Move, rotate and make them fall in the right place to get rid of them. There are no levels or any way to stop the minoes from falling and destroying your world . The whole purpose of this game is to get rid of as many minoes from your world and challenge yourself to beat your last score or your friends' using Game Center.
+![Screenshot](https://raw.githubusercontent.com/HarisRafiq/Minoes-World/b19e1c4810f54ac7c71e7f8f22702ad612800712/1.jpeg)
+![Tetris Screenshot iOS app](https://raw.githubusercontent.com/HarisRafiq/Minoes-World/b19e1c4810f54ac7c71e7f8f22702ad612800712/2.jpeg)
