@@ -1,0 +1,15 @@
+/* Localizable.strings
+  AirDab
+
+  Created by YAZ on 12/17/13.
+  Copyright (c) 2013 AirWalker. All rights reserved. */
+"Tap The Block To Rotate" = "회전 블록을 누릅니다";
+"Tap On The Left Side Of The Screen To Move The Block Left" = "블록 왼쪽으로 이동하려면 화면 왼쪽에 탭";
+"Tap On The Right Side Of The Screen To Move The Block Right" = "블록 오른쪽으로 이동하려면 화면 오른쪽에 탭";
+"Swipe Down Anywhere For Hard Fall" = "하드 가을은 어디 와이프";
+"Tap To Begin!!" = "시작하려면 누르십시오!";
+"Speed Increased!" = "속도가 증가!";
+"Max Speed!" = "최고 속도!";
+"Game Over" = "게임 오버";
+"Score" = "점수";
+"Best" = "가장 좋은";

@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C10613F18C5C4E100B7A1F3 /* media-pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C10613D18C5C4E100B7A1F3 /* media-pause.png */; };
+		7C10614018C5C4E100B7A1F3 /* media-play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C10613E18C5C4E100B7A1F3 /* media-play.png */; };
+		7C17CFA118C2677100F54031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFA018C2677000F54031 /* Foundation.framework */; };
+		7C17CFA318C2677100F54031 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFA218C2677100F54031 /* CoreGraphics.framework */; };
+		7C17CFA518C2677100F54031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFA418C2677100F54031 /* UIKit.framework */; };
+		7C17CFAB18C2677100F54031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFA918C2677100F54031 /* InfoPlist.strings */; };
+		7C17CFAD18C2677100F54031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFAC18C2677100F54031 /* main.m */; };
+		7C17CFB118C2677100F54031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFB018C2677100F54031 /* AppDelegate.m */; };
+		7C17CFB318C2677100F54031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFB218C2677100F54031 /* Images.xcassets */; };
+		7C17CFBA18C2677200F54031 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFB918C2677200F54031 /* XCTest.framework */; };
+		7C17CFBB18C2677200F54031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFA018C2677000F54031 /* Foundation.framework */; };
+		7C17CFBC18C2677200F54031 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFA418C2677100F54031 /* UIKit.framework */; };
+		7C17CFC418C2677200F54031 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFC218C2677200F54031 /* InfoPlist.strings */; };
+		7C17CFC618C2677200F54031 /* TetrizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFC518C2677200F54031 /* TetrizTests.m */; };
+		7C17CFD018C2683D00F54031 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFCF18C2683D00F54031 /* View.xib */; };
+		7C17CFD418C268AD00F54031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFD218C268AD00F54031 /* ViewController.m */; };
+		7C17CFD518C268AD00F54031 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFD318C268AD00F54031 /* ViewController.xib */; };
+		7C17CFD818C2694600F54031 /* Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFD718C2694600F54031 /* Blocks.m */; };
+		7C17CFDB18C2715400F54031 /* BlocksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFDA18C2715400F54031 /* BlocksView.m */; };
+		7C17CFDE18C271C900F54031 /* TetrizController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFDD18C271C900F54031 /* TetrizController.m */; };
+		7C17CFEC18C4476000F54031 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C17CFEB18C4476000F54031 /* QuartzCore.framework */; };
+		7C17CFEF18C4572100F54031 /* SoundSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C17CFEE18C4572000F54031 /* SoundSystem.m */; };
+		7C17CFF418C457C100F54031 /* blank.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFF018C457C100F54031 /* blank.wav */; };
+		7C17CFF518C457C100F54031 /* bounce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFF118C457C100F54031 /* bounce.wav */; };
+		7C17CFF618C457C100F54031 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFF218C457C100F54031 /* hit.wav */; };
+		7C17CFF718C457C100F54031 /* score.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFF318C457C100F54031 /* score.wav */; };
+		7C17CFF918C4601400F54031 /* move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFF818C4600E00F54031 /* move.wav */; };
+		7C17CFFB18C4604D00F54031 /* fall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFFA18C4604D00F54031 /* fall.wav */; };
+		7C17CFFD18C460AF00F54031 /* lineClear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C17CFFC18C460AF00F54031 /* lineClear.wav */; };
+		7C1BE2AA18CAB08800FE3A01 /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BE2A918CAB08800FE3A01 /* UIImage+ResizeMagick.m */; };
+		7C1BE2BD18CAB45600FE3A01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C1BE2BF18CAB45600FE3A01 /* Localizable.strings */; };
+		7C26E08D18C82F0600FE7DAE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C26E08C18C82F0600FE7DAE /* GameKit.framework */; };
+		7C26E09518C83EDD00FE7DAE /* DoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C26E09418C83EDD00FE7DAE /* DoAlertView.m */; };
+		7C26E09718C846DE00FE7DAE /* Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E09618C846DE00FE7DAE /* Play@2x.png */; };
+		7C26E09918C846F300FE7DAE /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E09818C846F300FE7DAE /* Play.png */; };
+		7C26E09B18C848AD00FE7DAE /* LeaderBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E09A18C848AD00FE7DAE /* LeaderBoard.png */; };
+		7C26E0A218C9C06B00FE7DAE /* iPhoneandiTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E09F18C9C06B00FE7DAE /* iPhoneandiTouch.png */; };
+		7C26E0A318C9C06B00FE7DAE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E0A018C9C06B00FE7DAE /* settings.png */; };
+		7C26E0A418C9C06B00FE7DAE /* spotlightsearch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C26E0A118C9C06B00FE7DAE /* spotlightsearch.png */; };
+		7C6AA51618C7CFF300814A7B /* TutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6AA51518C7CFF300814A7B /* TutorialView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C17CFBD18C2677200F54031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C17CF9518C2676D00F54031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C17CF9C18C2676F00F54031;
+			remoteInfo = Tetriz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C10613D18C5C4E100B7A1F3 /* media-pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-pause.png"; sourceTree = "<group>"; };
+		7C10613E18C5C4E100B7A1F3 /* media-play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "media-play.png"; sourceTree = "<group>"; };
+		7C17CF9D18C2677000F54031 /* Tetriz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetriz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C17CFA018C2677000F54031 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C17CFA218C2677100F54031 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C17CFA418C2677100F54031 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C17CFA818C2677100F54031 /* Tetriz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetriz-Info.plist"; sourceTree = "<group>"; };
+		7C17CFAA18C2677100F54031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C17CFAC18C2677100F54031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C17CFAE18C2677100F54031 /* Tetriz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetriz-Prefix.pch"; sourceTree = "<group>"; };
+		7C17CFAF18C2677100F54031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C17CFB018C2677100F54031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C17CFB218C2677100F54031 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7C17CFB818C2677200F54031 /* TetrizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C17CFB918C2677200F54031 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7C17CFC118C2677200F54031 /* TetrizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TetrizTests-Info.plist"; sourceTree = "<group>"; };
+		7C17CFC318C2677200F54031 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C17CFC518C2677200F54031 /* TetrizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrizTests.m; sourceTree = "<group>"; };
+		7C17CFCF18C2683D00F54031 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		7C17CFD118C268AD00F54031 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C17CFD218C268AD00F54031 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C17CFD318C268AD00F54031 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		7C17CFD618C2694600F54031 /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
+		7C17CFD718C2694600F54031 /* Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks.m; sourceTree = "<group>"; };
+		7C17CFD918C2715400F54031 /* BlocksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksView.h; sourceTree = "<group>"; };
+		7C17CFDA18C2715400F54031 /* BlocksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksView.m; sourceTree = "<group>"; };
+		7C17CFDC18C271C900F54031 /* TetrizController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrizController.h; sourceTree = "<group>"; };
+		7C17CFDD18C271C900F54031 /* TetrizController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrizController.m; sourceTree = "<group>"; };
+		7C17CFEB18C4476000F54031 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7C17CFED18C4572000F54031 /* SoundSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundSystem.h; sourceTree = "<group>"; };
+		7C17CFEE18C4572000F54031 /* SoundSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundSystem.m; sourceTree = "<group>"; };
+		7C17CFF018C457C100F54031 /* blank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blank.wav; sourceTree = "<group>"; };
+		7C17CFF118C457C100F54031 /* bounce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bounce.wav; sourceTree = "<group>"; };
+		7C17CFF218C457C100F54031 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		7C17CFF318C457C100F54031 /* score.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = score.wav; sourceTree = "<group>"; };
+		7C17CFF818C4600E00F54031 /* move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = move.wav; sourceTree = "<group>"; };
+		7C17CFFA18C4604D00F54031 /* fall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fall.wav; sourceTree = "<group>"; };
+		7C17CFFC18C460AF00F54031 /* lineClear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lineClear.wav; sourceTree = "<group>"; };
+		7C1BE2A818CAB08800FE3A01 /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
+		7C1BE2A918CAB08800FE3A01 /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
+		7C1BE2AD18CAB3EE00FE3A01 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2AE18CAB3EE00FE3A01 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2AF18CAB3F300FE3A01 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B018CAB3F400FE3A01 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B118CAB3F800FE3A01 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B218CAB3F800FE3A01 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B318CAB3FD00FE3A01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B418CAB3FD00FE3A01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B518CAB40A00FE3A01 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7C1BE2B618CAB40A00FE3A01 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7C1BE2B718CAB41200FE3A01 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B818CAB41200FE3A01 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2B918CAB42000FE3A01 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2BA18CAB42000FE3A01 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2BB18CAB42400FE3A01 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2BC18CAB42400FE3A01 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C1BE2BE18CAB45600FE3A01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C018CAB45A00FE3A01 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C118CAB45B00FE3A01 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C218CAB45C00FE3A01 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C318CAB45C00FE3A01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C418CAB45D00FE3A01 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7C1BE2C518CAB45D00FE3A01 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C618CAB45E00FE3A01 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C1BE2C718CAB45E00FE3A01 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7C26E08C18C82F0600FE7DAE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		7C26E09318C83EDD00FE7DAE /* DoAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoAlertView.h; sourceTree = "<group>"; };
+		7C26E09418C83EDD00FE7DAE /* DoAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoAlertView.m; sourceTree = "<group>"; };
+		7C26E09618C846DE00FE7DAE /* Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play@2x.png"; sourceTree = "<group>"; };
+		7C26E09818C846F300FE7DAE /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		7C26E09A18C848AD00FE7DAE /* LeaderBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeaderBoard.png; sourceTree = "<group>"; };
+		7C26E09F18C9C06B00FE7DAE /* iPhoneandiTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneandiTouch.png; sourceTree = "<group>"; };
+		7C26E0A018C9C06B00FE7DAE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		7C26E0A118C9C06B00FE7DAE /* spotlightsearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlightsearch.png; sourceTree = "<group>"; };
+		7C6AA51418C7CFF300814A7B /* TutorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialView.h; sourceTree = "<group>"; };
+		7C6AA51518C7CFF300814A7B /* TutorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C17CF9A18C2676F00F54031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C26E08D18C82F0600FE7DAE /* GameKit.framework in Frameworks */,
+				7C17CFEC18C4476000F54031 /* QuartzCore.framework in Frameworks */,
+				7C17CFA318C2677100F54031 /* CoreGraphics.framework in Frameworks */,
+				7C17CFA518C2677100F54031 /* UIKit.framework in Frameworks */,
+				7C17CFA118C2677100F54031 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C17CFB518C2677200F54031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C17CFBA18C2677200F54031 /* XCTest.framework in Frameworks */,
+				7C17CFBC18C2677200F54031 /* UIKit.framework in Frameworks */,
+				7C17CFBB18C2677200F54031 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C17CF9418C2676D00F54031 = {
+			isa = PBXGroup;
+			children = (
+				7C1BE2BF18CAB45600FE3A01 /* Localizable.strings */,
+				7C1BE2A818CAB08800FE3A01 /* UIImage+ResizeMagick.h */,
+				7C1BE2A918CAB08800FE3A01 /* UIImage+ResizeMagick.m */,
+				7C26E09A18C848AD00FE7DAE /* LeaderBoard.png */,
+				7C26E09818C846F300FE7DAE /* Play.png */,
+				7C26E09618C846DE00FE7DAE /* Play@2x.png */,
+				7C26E09318C83EDD00FE7DAE /* DoAlertView.h */,
+				7C26E09418C83EDD00FE7DAE /* DoAlertView.m */,
+				7C6AA51418C7CFF300814A7B /* TutorialView.h */,
+				7C6AA51518C7CFF300814A7B /* TutorialView.m */,
+				7C10613D18C5C4E100B7A1F3 /* media-pause.png */,
+				7C10613E18C5C4E100B7A1F3 /* media-play.png */,
+				7C17CFFC18C460AF00F54031 /* lineClear.wav */,
+				7C17CFFA18C4604D00F54031 /* fall.wav */,
+				7C17CFF818C4600E00F54031 /* move.wav */,
+				7C17CFF018C457C100F54031 /* blank.wav */,
+				7C17CFF118C457C100F54031 /* bounce.wav */,
+				7C17CFF218C457C100F54031 /* hit.wav */,
+				7C17CFF318C457C100F54031 /* score.wav */,
+				7C17CFED18C4572000F54031 /* SoundSystem.h */,
+				7C17CFEE18C4572000F54031 /* SoundSystem.m */,
+				7C17CFDC18C271C900F54031 /* TetrizController.h */,
+				7C17CFDD18C271C900F54031 /* TetrizController.m */,
+				7C17CFD918C2715400F54031 /* BlocksView.h */,
+				7C17CFDA18C2715400F54031 /* BlocksView.m */,
+				7C17CFD618C2694600F54031 /* Blocks.h */,
+				7C17CFD718C2694600F54031 /* Blocks.m */,
+				7C17CFD118C268AD00F54031 /* ViewController.h */,
+				7C17CFD218C268AD00F54031 /* ViewController.m */,
+				7C17CFD318C268AD00F54031 /* ViewController.xib */,
+				7C17CFA618C2677100F54031 /* Tetriz */,
+				7C17CFBF18C2677200F54031 /* TetrizTests */,
+				7C17CF9F18C2677000F54031 /* Frameworks */,
+				7C17CF9E18C2677000F54031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C17CF9E18C2677000F54031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C17CF9D18C2677000F54031 /* Tetriz.app */,
+				7C17CFB818C2677200F54031 /* TetrizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C17CF9F18C2677000F54031 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C26E08C18C82F0600FE7DAE /* GameKit.framework */,
+				7C17CFEB18C4476000F54031 /* QuartzCore.framework */,
+				7C17CFA018C2677000F54031 /* Foundation.framework */,
+				7C17CFA218C2677100F54031 /* CoreGraphics.framework */,
+				7C17CFA418C2677100F54031 /* UIKit.framework */,
+				7C17CFB918C2677200F54031 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C17CFA618C2677100F54031 /* Tetriz */ = {
+			isa = PBXGroup;
+			children = (
+				7C26E09F18C9C06B00FE7DAE /* iPhoneandiTouch.png */,
+				7C26E0A018C9C06B00FE7DAE /* settings.png */,
+				7C26E0A118C9C06B00FE7DAE /* spotlightsearch.png */,
+				7C17CFAF18C2677100F54031 /* AppDelegate.h */,
+				7C17CFB018C2677100F54031 /* AppDelegate.m */,
+				7C17CFB218C2677100F54031 /* Images.xcassets */,
+				7C17CFA718C2677100F54031 /* Supporting Files */,
+				7C17CFCF18C2683D00F54031 /* View.xib */,
+			);
+			path = Tetriz;
+			sourceTree = "<group>";
+		};
+		7C17CFA718C2677100F54031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C17CFA818C2677100F54031 /* Tetriz-Info.plist */,
+				7C17CFA918C2677100F54031 /* InfoPlist.strings */,
+				7C17CFAC18C2677100F54031 /* main.m */,
+				7C17CFAE18C2677100F54031 /* Tetriz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C17CFBF18C2677200F54031 /* TetrizTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C17CFC518C2677200F54031 /* TetrizTests.m */,
+				7C17CFC018C2677200F54031 /* Supporting Files */,
+			);
+			path = TetrizTests;
+			sourceTree = "<group>";
+		};
+		7C17CFC018C2677200F54031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C17CFC118C2677200F54031 /* TetrizTests-Info.plist */,
+				7C17CFC218C2677200F54031 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C17CF9C18C2676F00F54031 /* Tetriz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C17CFC918C2677200F54031 /* Build configuration list for PBXNativeTarget "Tetriz" */;
+			buildPhases = (
+				7C17CF9918C2676F00F54031 /* Sources */,
+				7C17CF9A18C2676F00F54031 /* Frameworks */,
+				7C17CF9B18C2676F00F54031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetriz;
+			productName = Tetriz;
+			productReference = 7C17CF9D18C2677000F54031 /* Tetriz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C17CFB718C2677200F54031 /* TetrizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C17CFCC18C2677200F54031 /* Build configuration list for PBXNativeTarget "TetrizTests" */;
+			buildPhases = (
+				7C17CFB418C2677200F54031 /* Sources */,
+				7C17CFB518C2677200F54031 /* Frameworks */,
+				7C17CFB618C2677200F54031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C17CFBE18C2677200F54031 /* PBXTargetDependency */,
+			);
+			name = TetrizTests;
+			productName = TetrizTests;
+			productReference = 7C17CFB818C2677200F54031 /* TetrizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C17CF9518C2676D00F54031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Haris Rafiq";
+				TargetAttributes = {
+					7C17CF9C18C2676F00F54031 = {
+						DevelopmentTeam = VC346ZAH77;
+					};
+					7C17CFB718C2677200F54031 = {
+						TestTargetID = 7C17CF9C18C2676F00F54031;
+					};
+				};
+			};
+			buildConfigurationList = 7C17CF9818C2676E00F54031 /* Build configuration list for PBXProject "Tetriz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				de,
+				es,
+				ru,
+				"zh-Hans",
+				ko,
+				fr,
+				it,
+			);
+			mainGroup = 7C17CF9418C2676D00F54031;
+			productRefGroup = 7C17CF9E18C2677000F54031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C17CF9C18C2676F00F54031 /* Tetriz */,
+				7C17CFB718C2677200F54031 /* TetrizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C17CF9B18C2676F00F54031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C17CFF418C457C100F54031 /* blank.wav in Resources */,
+				7C26E09918C846F300FE7DAE /* Play.png in Resources */,
+				7C10613F18C5C4E100B7A1F3 /* media-pause.png in Resources */,
+				7C17CFF718C457C100F54031 /* score.wav in Resources */,
+				7C26E0A218C9C06B00FE7DAE /* iPhoneandiTouch.png in Resources */,
+				7C17CFAB18C2677100F54031 /* InfoPlist.strings in Resources */,
+				7C26E0A318C9C06B00FE7DAE /* settings.png in Resources */,
+				7C17CFF918C4601400F54031 /* move.wav in Resources */,
+				7C17CFD018C2683D00F54031 /* View.xib in Resources */,
+				7C17CFFB18C4604D00F54031 /* fall.wav in Resources */,
+				7C17CFD518C268AD00F54031 /* ViewController.xib in Resources */,
+				7C1BE2BD18CAB45600FE3A01 /* Localizable.strings in Resources */,
+				7C26E09B18C848AD00FE7DAE /* LeaderBoard.png in Resources */,
+				7C17CFF518C457C100F54031 /* bounce.wav in Resources */,
+				7C10614018C5C4E100B7A1F3 /* media-play.png in Resources */,
+				7C26E0A418C9C06B00FE7DAE /* spotlightsearch.png in Resources */,
+				7C26E09718C846DE00FE7DAE /* Play@2x.png in Resources */,
+				7C17CFF618C457C100F54031 /* hit.wav in Resources */,
+				7C17CFB318C2677100F54031 /* Images.xcassets in Resources */,
+				7C17CFFD18C460AF00F54031 /* lineClear.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C17CFB618C2677200F54031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C17CFC418C2677200F54031 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C17CF9918C2676F00F54031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C17CFD418C268AD00F54031 /* ViewController.m in Sources */,
+				7C1BE2AA18CAB08800FE3A01 /* UIImage+ResizeMagick.m in Sources */,
+				7C17CFD818C2694600F54031 /* Blocks.m in Sources */,
+				7C17CFB118C2677100F54031 /* AppDelegate.m in Sources */,
+				7C26E09518C83EDD00FE7DAE /* DoAlertView.m in Sources */,
+				7C17CFDE18C271C900F54031 /* TetrizController.m in Sources */,
+				7C17CFEF18C4572100F54031 /* SoundSystem.m in Sources */,
+				7C17CFDB18C2715400F54031 /* BlocksView.m in Sources */,
+				7C6AA51618C7CFF300814A7B /* TutorialView.m in Sources */,
+				7C17CFAD18C2677100F54031 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C17CFB418C2677200F54031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C17CFC618C2677200F54031 /* TetrizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7C17CFBE18C2677200F54031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7C17CF9C18C2676F00F54031 /* Tetriz */;
+			targetProxy = 7C17CFBD18C2677200F54031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7C17CFA918C2677100F54031 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C17CFAA18C2677100F54031 /* en */,
+				7C1BE2AD18CAB3EE00FE3A01 /* ja */,
+				7C1BE2AF18CAB3F300FE3A01 /* de */,
+				7C1BE2B118CAB3F800FE3A01 /* es */,
+				7C1BE2B318CAB3FD00FE3A01 /* ru */,
+				7C1BE2B518CAB40A00FE3A01 /* zh-Hans */,
+				7C1BE2B718CAB41200FE3A01 /* ko */,
+				7C1BE2B918CAB42000FE3A01 /* fr */,
+				7C1BE2BB18CAB42400FE3A01 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C17CFC218C2677200F54031 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C17CFC318C2677200F54031 /* en */,
+				7C1BE2AE18CAB3EE00FE3A01 /* ja */,
+				7C1BE2B018CAB3F400FE3A01 /* de */,
+				7C1BE2B218CAB3F800FE3A01 /* es */,
+				7C1BE2B418CAB3FD00FE3A01 /* ru */,
+				7C1BE2B618CAB40A00FE3A01 /* zh-Hans */,
+				7C1BE2B818CAB41200FE3A01 /* ko */,
+				7C1BE2BA18CAB42000FE3A01 /* fr */,
+				7C1BE2BC18CAB42400FE3A01 /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C1BE2BF18CAB45600FE3A01 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C1BE2BE18CAB45600FE3A01 /* en */,
+				7C1BE2C018CAB45A00FE3A01 /* es */,
+				7C1BE2C118CAB45B00FE3A01 /* de */,
+				7C1BE2C218CAB45C00FE3A01 /* ja */,
+				7C1BE2C318CAB45C00FE3A01 /* ru */,
+				7C1BE2C418CAB45D00FE3A01 /* zh-Hans */,
+				7C1BE2C518CAB45D00FE3A01 /* ko */,
+				7C1BE2C618CAB45E00FE3A01 /* fr */,
+				7C1BE2C718CAB45E00FE3A01 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C17CFC718C2677200F54031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D6CDB822-AC85-4550-BBBE-4CC272DC888C";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C17CFC818C2677200F54031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "D6CDB822-AC85-4550-BBBE-4CC272DC888C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C17CFCA18C2677200F54031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VC346ZAH77;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetriz/Tetriz-Prefix.pch";
+				INFOPLIST_FILE = "Tetriz/Tetriz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.kingtris.100;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C17CFCB18C2677200F54031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VC346ZAH77;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetriz/Tetriz-Prefix.pch";
+				INFOPLIST_FILE = "Tetriz/Tetriz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graphic.kingtris.100;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7C17CFCD18C2677200F54031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tetriz.app/Tetriz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetriz/Tetriz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TetrizTests/TetrizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7C17CFCE18C2677200F54031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tetriz.app/Tetriz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetriz/Tetriz-Prefix.pch";
+				INFOPLIST_FILE = "TetrizTests/TetrizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C17CF9818C2676E00F54031 /* Build configuration list for PBXProject "Tetriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C17CFC718C2677200F54031 /* Debug */,
+				7C17CFC818C2677200F54031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C17CFC918C2677200F54031 /* Build configuration list for PBXNativeTarget "Tetriz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C17CFCA18C2677200F54031 /* Debug */,
+				7C17CFCB18C2677200F54031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C17CFCC18C2677200F54031 /* Build configuration list for PBXNativeTarget "TetrizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C17CFCD18C2677200F54031 /* Debug */,
+				7C17CFCE18C2677200F54031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C17CF9518C2676D00F54031 /* Project object */;
+}

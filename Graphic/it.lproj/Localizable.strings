@@ -1,0 +1,15 @@
+/* Localizable.strings
+  AirDab
+
+  Created by YAZ on 12/17/13.
+  Copyright (c) 2013 AirWalker. All rights reserved. */
+"Tap The Block To Rotate" = "Toccare il blocco da ruotare";
+"Tap On The Left Side Of The Screen To Move The Block Left" = "Toccare sul lato sinistro dello schermo per spostare il blocco di sinistra";
+"Tap On The Right Side Of The Screen To Move The Block Right" = "Toccare sul lato destro dello schermo per spostare il blocco a destra";
+"Swipe Down Anywhere For Hard Fall" = "Scorrere verso il basso Anywhere per Hard Autunno";
+"Tap To Begin!!" = "Toccare per iniziare!";
+"Speed Increased!" = "Velocità aumentata!";
+"Max Speed!" = "Velocità Max!";
+"Game Over" = "Game Over";
+"Score" = "Punteggio";
+"Best" = "Saluti";

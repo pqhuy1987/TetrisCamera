@@ -1,0 +1,463 @@
+{
+    "assets": [
+        {
+            "asset": "blank.wav", 
+            "target": "blank.wav"
+        }, 
+        {
+            "asset": "Tetriz/Icon@2x.png", 
+            "target": "Icon@2x.png"
+        }, 
+        {
+            "asset": "Play.png", 
+            "target": "Play.png"
+        }, 
+        {
+            "asset": "media-pause.png", 
+            "target": "media-pause.png"
+        }, 
+        {
+            "asset": "score.wav", 
+            "target": "score.wav"
+        }, 
+        {
+            "asset": "Tetriz/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Tetriz/iPhoneandiTouch.png", 
+            "target": "iPhoneandiTouch.png"
+        }, 
+        {
+            "asset": "Tetriz/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/ja.lproj/InfoPlist.strings", 
+            "target": "ja.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/de.lproj/InfoPlist.strings", 
+            "target": "de.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/es.lproj/InfoPlist.strings", 
+            "target": "es.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/ru.lproj/InfoPlist.strings", 
+            "target": "ru.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/zh-Hans.lproj/InfoPlist.strings", 
+            "target": "zh-Hans.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/ko.lproj/InfoPlist.strings", 
+            "target": "ko.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/fr.lproj/InfoPlist.strings", 
+            "target": "fr.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/it.lproj/InfoPlist.strings", 
+            "target": "it.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Tetriz/settings.png", 
+            "target": "settings.png"
+        }, 
+        {
+            "asset": "move.wav", 
+            "target": "move.wav"
+        }, 
+        {
+            "asset": "Tetriz/Default-Portrait@2x.png", 
+            "target": "Default-Portrait@2x.png"
+        }, 
+        {
+            "asset": "Tetriz/Default-Portrait.png", 
+            "target": "Default-Portrait.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-60.png", 
+            "target": "Icon-60.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "Tetriz/iTunesArtwork@2x.png", 
+            "target": "iTunesArtwork@2x.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon.png", 
+            "target": "Icon.png"
+        }, 
+        {
+            "asset": "Tetriz/Default@1136.png", 
+            "target": "Default@1136.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-76.png", 
+            "target": "Icon-76.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-40.png", 
+            "target": "Icon-40.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-72@2x.png", 
+            "target": "Icon-72@2x.png"
+        }, 
+        {
+            "asset": "fall.wav", 
+            "target": "fall.wav"
+        }, 
+        {
+            "asset": "Tetriz/Icon-Small-50@2x.png", 
+            "target": "Icon-Small-50@2x.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-60@2x.png", 
+            "target": "Icon-60@2x.png"
+        }, 
+        {
+            "asset": "Tetriz/iTunesArtwork.png", 
+            "target": "iTunesArtwork.png"
+        }, 
+        {
+            "asset": "en.lproj/Localizable.strings", 
+            "target": "en.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "es.lproj/Localizable.strings", 
+            "target": "es.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "de.lproj/Localizable.strings", 
+            "target": "de.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "ja.lproj/Localizable.strings", 
+            "target": "ja.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "ru.lproj/Localizable.strings", 
+            "target": "ru.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "zh-Hans.lproj/Localizable.strings", 
+            "target": "zh-Hans.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "ko.lproj/Localizable.strings", 
+            "target": "ko.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "fr.lproj/Localizable.strings", 
+            "target": "fr.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "it.lproj/Localizable.strings", 
+            "target": "it.lproj/Localizable.strings"
+        }, 
+        {
+            "asset": "Tetriz/Icon-Small@2x.png", 
+            "target": "Icon-Small@2x.png"
+        }, 
+        {
+            "asset": "LeaderBoard.png", 
+            "target": "LeaderBoard.png"
+        }, 
+        {
+            "asset": "bounce.wav", 
+            "target": "bounce.wav"
+        }, 
+        {
+            "asset": "Tetriz/Icon-Small.png", 
+            "target": "Icon-Small.png"
+        }, 
+        {
+            "asset": "media-play.png", 
+            "target": "media-play.png"
+        }, 
+        {
+            "asset": "Tetriz/spotlightsearch.png", 
+            "target": "spotlightsearch.png"
+        }, 
+        {
+            "asset": "Play@2x.png", 
+            "target": "Play@2x.png"
+        }, 
+        {
+            "asset": "hit.wav", 
+            "target": "hit.wav"
+        }, 
+        {
+            "asset": "Tetriz/Icon-40@2x.png", 
+            "target": "Icon-40@2x.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-Small-50.png", 
+            "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "Tetriz/Icon-76@2x.png", 
+            "target": "Icon-76@2x.png"
+        }, 
+        {
+            "asset": "lineClear.wav", 
+            "target": "lineClear.wav"
+        }, 
+        {
+            "asset": "Tetriz/Images.xcassets", 
+            "target": null
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "Tetriz", 
+        "APPLICATION_IDENTIFIER": "com.Haris.Tetriz", 
+        "APPLICATION_NAME": "Tetriz", 
+        "LONG_VERSION": "2.0", 
+        "SHORT_VERSION": "2.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "Tetriz", 
+            "PRODUCT_NAME": "Tetriz"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "GameKit", 
+        "QuartzCore", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "Tetriz-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Tetriz-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Tetriz-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Tetriz-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Tetriz/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "Blocks.h": {
+                    "key": "Blocks.h", 
+                    "prefix": "./", 
+                    "suffix": "Blocks.h"
+                }, 
+                "BlocksView.h": {
+                    "key": "BlocksView.h", 
+                    "prefix": "./", 
+                    "suffix": "BlocksView.h"
+                }, 
+                "DoAlertView.h": {
+                    "key": "DoAlertView.h", 
+                    "prefix": "./", 
+                    "suffix": "DoAlertView.h"
+                }, 
+                "SoundSystem.h": {
+                    "key": "SoundSystem.h", 
+                    "prefix": "./", 
+                    "suffix": "SoundSystem.h"
+                }, 
+                "Tetriz-Prefix.pch": {
+                    "key": "Tetriz-Prefix.pch", 
+                    "prefix": "Tetriz/", 
+                    "suffix": "Tetriz-Prefix.pch"
+                }, 
+                "TetrizController.h": {
+                    "key": "TetrizController.h", 
+                    "prefix": "./", 
+                    "suffix": "TetrizController.h"
+                }, 
+                "TutorialView.h": {
+                    "key": "TutorialView.h", 
+                    "prefix": "./", 
+                    "suffix": "TutorialView.h"
+                }, 
+                "UIImage+ResizeMagick.h": {
+                    "key": "UIImage+ResizeMagick.h", 
+                    "prefix": "./", 
+                    "suffix": "UIImage+ResizeMagick.h"
+                }, 
+                "ViewController.h": {
+                    "key": "ViewController.h", 
+                    "prefix": "./", 
+                    "suffix": "ViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/37/_xdvxj6d2kz4gfcdf3rxzbzh0000gn/T/tmpOzBCOc/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/37/_xdvxj6d2kz4gfcdf3rxzbzh0000gn/T/tmpOzBCOc/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/37/_xdvxj6d2kz4gfcdf3rxzbzh0000gn/T/tmpOzBCOc/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Tetriz/Tetriz-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./Tetriz/Tetriz-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Blocks.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "BlocksView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "DoAlertView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SoundSystem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Tetriz/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Tetriz/main.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "TetrizController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "TutorialView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "UIImage+ResizeMagick.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ViewController.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "Tetriz.xcodeproj", 
+    "xibs": [
+        {
+            "target": null, 
+            "xib": "Tetriz/View.xib"
+        }, 
+        {
+            "target": null, 
+            "xib": "ViewController.xib"
+        }
+    ]
+}
